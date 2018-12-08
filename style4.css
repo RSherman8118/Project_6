@@ -87,7 +87,7 @@ body {
 .right-triangle:hover {
     transform: scale(1.5,1.5);
 
-     transform: rotate(50deg);
+     transform: rotate(35deg);
   
     
 }
