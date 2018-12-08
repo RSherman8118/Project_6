@@ -1,0 +1,7 @@
+Open terminal app
+
+"cd Desktop/..."
+
+"Python -m SimpleHTTPServer"
+
+in chrome, go to localhost:8000

@@ -1,0 +1,238 @@
+body,
+html {
+  overflow-x: hidden;
+  width: 99%;
+  height: 200%;
+}
+
+
+
+
+
+.right-triangle {
+ top: 150vh;
+    left: 25vh;
+   width: 0;
+   height: 0;
+   border-right: 200px solid white;
+   border-top: 100px solid transparent;
+   border-bottom: 100px solid transparent;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+.p5Canvas {
+    
+    width: 700vh;
+    height: 700vh;
+    position: absolute;
+    top: 100vh;
+    left: 50vh;
+    z-index: 100;
+    color: white;
+    align-self: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.raw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("https://eoimages.gsfc.nasa.gov/images/imagerecords/5000/5668/glacier_columbia_c1980.jpg");
+  width: 100%;
+  height: 100%;
+}
+.raw.first {
+  position: fixed;
+}
+.raw.second {
+  background-attachment: fixed;
+  transform: rotate(10deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(10deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(10deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(10deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(10deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+
+}
+
+
+.raw.second:hover {
+    background-image: url("https://www.gannett-cdn.com/-mm-/d1c7a1ceb07d641047ae1a8dd7e1bb83ff1bed04/c=0-519-3498-2496/local/-/media/2018/06/18/USATODAY/USATODAY/636649084675348204-EPA-USA-HAWAII-KILAUEA-VOLCANO.1.jpg?width=3200&height=1680&fit=crop");
+    
+}
+
+
+.raw.pos1 {
+  width: 100%;
+  height: 20%;
+  top: 100px;
+  left: 0;
+  background-position-x: 0;
+  background-position-y: -40px;
+}
+.raw.pos1a {
+  width: 100%;
+  height: 20%;
+  top: 120px;
+  left: 0;
+  background-position-x: 0;
+  background-position-y: -40px;
+  transform: rotate(3deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(3deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(3deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(3deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(3deg) scale(1.02, 1.02) skew(0, 0) translate(0, 0);
+}
+.raw.pos2 {
+  width: 100%;
+  height: 20%;
+  top: 440px;
+  left: 415px;
+  background-position-x: -415px;
+  background-position-y: -440px;
+  transform: rotate(-10deg) scale(0.95, 0.95) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(-10deg) scale(0.95, 0.95) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(-10deg) scale(0.95, 0.95) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(-10deg) scale(0.95, 0.95) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(-10deg) scale(0.95, 0.95) skew(0, 0) translate(0, 0);
+}
+.raw.pos3 {
+  width: 100%;
+  height: 30%;
+  top: 500px;
+  left: -200px;
+  background-position-x: 200px;
+  background-position-y: -500px;
+  transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+}
+.raw.pos4 {
+  width: 100%;
+  height: 15%;
+  top: 250px;
+  left: 0px;
+  background-position-x: 0px;
+  background-position-y: -250px;
+  transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+}
+
+.raw.pos5 {
+  width: 100%;
+  height: 15%;
+  top: 650px;
+  left: 0px;
+  background-position-x: 0px;
+  background-position-y: -250px;
+  transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+}
+
+.raw.pos6 {
+  width: 100%;
+  height: 15%;
+  top: 700px;
+  left: 0px;
+  background-position-x: 0px;
+  background-position-y: -250px;
+  transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+}
+
+
+.raw.pos7 {
+  width: 100%;
+  height: 15%;
+  top: 750px;
+  left: 0px;
+  background-position-x: 0px;
+  background-position-y: -250px;
+  transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+}
+
+.raw.pos8 {
+  width: 100%;
+  height: 15%;
+  top: 800px;
+  left: 0px;
+  background-position-x: 0px;
+  background-position-y: -500px;
+  transform: rotate(-20deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(-20deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(-20deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(-20deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(-20deg) scale(1, 1) skew(0, 0) translate(0, 0);
+}
+
+.raw.pos9 {
+  width: 100%;
+  height: 15%;
+  top: 850px;
+  left: 0px;
+  background-position-x: 0px;
+  background-position-y: -250px;
+  transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(-3deg) scale(1, 1) skew(0, 0) translate(0, 0);
+}
+
+.raw.pos10 {
+  width: 100%;
+  height: 15%;
+  top: 900px;
+  left: 0px;
+  background-position-x: 200px;
+  background-position-y: -500px;
+  transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -webkit-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -moz-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -o-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+  -ms-transform: rotate(20deg) scale(1.05, 1.05) skew(0, 0) translate(0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
